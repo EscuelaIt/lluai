@@ -1,0 +1,17 @@
+{
+  "name": "lluai",
+  "version": "0.0.0",
+  "description": "This is a UI Kit for common pourposes.",
+  "keywords": [
+    "ui",
+    "ui",
+    "kit"
+  ],
+  "license": "MIT",
+  "author": "EscuelaIT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
