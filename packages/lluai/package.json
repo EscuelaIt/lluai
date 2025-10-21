@@ -1,0 +1,24 @@
+{
+  "name": "lluai",
+  "version": "0.0.0",
+  "description": "UI Components",
+  "keywords": [
+    "UI",
+    "Components"
+  ],
+  "homepage": "https://github.com/EscuelaIt/lluai#readme",
+  "bugs": {
+    "url": "https://github.com/EscuelaIt/lluai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EscuelaIt/lluai.git"
+  },
+  "license": "MIT",
+  "author": "EscuelaIT",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

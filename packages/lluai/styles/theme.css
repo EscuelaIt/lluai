@@ -1,0 +1,30 @@
+:root {
+  --lluai-bg_primary: #001429;
+  --lluai-foreground: #F9F9F7;
+  --lluai-foreground_inverted: #001429;
+  --lluai-accent_1: #CDF540;
+  --lluai-on-accent_1: #001429;
+  --lluai-accent_1_light: #DCF879;
+  --lluai-accent_2: #FA4773;
+  --lluai-on-accent_2: #001429;
+  --lluai-border: #0B4C90;
+  --lluai-disabled-color: #ddd;
+  --lluai-on-disabled-color: #999;
+
+  --lluai-xs: 0.25rem;
+  --lluai-s: 0.5rem;
+  --lluai-m: 1rem;
+  --lluai-l: 1.5rem;
+  --lluai-xl: 2.5rem;
+  --lluai-2xl: 5rem;
+
+  --lluai-b-radius-small: 0.25rem;
+  --lluai-b-radius-normal: 0.5rem;
+
+  --lluai-text-base: 1rem;
+  --lluai-text-small: 0.875rem;
+  --lluai-text-subtitle: 1.5rem;
+  --lluai-text-title: 2.5rem;
+
+  --lluai-lineheight-base: 1.2rem;
+}
