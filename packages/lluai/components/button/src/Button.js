@@ -39,8 +39,26 @@ export class Button extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-
     this.shadowRoot.appendChild(template.content.cloneNode(true));
+    this.disabled = false;
 
+    this.shadowRoot.querySelector('button').addEventListener('click', (e) => {
+      if(this.disabled) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+    });
+  }
+
+  static get observedAttributes() {
+    return ['disabled'];
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    if (name === 'disabled' && newValue !== null) {
+      this.disabled = true;
+    } else {
+      this.disabled = false;
+    }
   }
 }

@@ -9,8 +9,34 @@
   <main>
     <h1>Lluai demos</h1>
     <p>IU Components demos</p>
-    <lluai-button>Send</lluai-button> 
-    
+    <lluai-button id="botonsimple">Send</lluai-button> 
+    <lluai-button id="botonsimplesecondary" secondary>Secudario</lluai-button> 
+    <lluai-button id="botondesactivado" disabled>Disabled</lluai-button> 
+    <p>
+      <lluai-input 
+        label="Suscribe a nuestra lista de correo"
+        placeholder="Tu email"  
+      ></lluai-input>
+    </p>
+  
+    <p>
+      <lluai-input 
+        id="inputvalue"
+        label="Suscribe a nuestra lista de correo"
+        placeholder="Tu email"  
+        value="miguel@escuela.it"
+      ></lluai-input>
+    </p>
+
+    <p>
+      <lluai-input
+        disabled 
+        type="password"
+        label="Suscribe a nuestra lista de correo"
+        placeholder="Tu email"  
+        value="miguel@escuela.it"
+      ></lluai-input>
+    </p>
   </main>
   
   <script src="./js/index.js" type="module"></script>

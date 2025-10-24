@@ -1,3 +1,3 @@
-import { Button } from "./src/Button.js";
+import { LluaiButton } from "./src/LluaiButton.js";
 
-window.customElements.define("lluai-button", Button);
+window.customElements.define("lluai-button", LluaiButton);
