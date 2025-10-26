@@ -31,3 +31,42 @@ h1 {
 h2 {
   font-size: var(--lluai-text-subtitle);
 }
+
+p {
+  margin-bottom: var(--lluai-m);
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+lluai-card img {
+  max-width: 100%;
+}
+
+lluai-card {
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.form lluai-input {
+  flex-grow: 1;
+}
+
+lluai-card {
+  max-width: 330px;
+}
+
+lluai-card.card-expand {
+  max-width: none;
+  --lluai-card-title-color: #21e6f8ff;
+}
+
+.myicon {
+  color: var(--lluai-accent_2);
+}
