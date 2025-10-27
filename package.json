@@ -12,12 +12,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "lerna": "lerna"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "lerna": "^9.0.0",
     "vite": "^7.1.11"
   },
   "dependencies": {
