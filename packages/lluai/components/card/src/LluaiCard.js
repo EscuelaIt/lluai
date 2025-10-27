@@ -7,7 +7,7 @@ export class LluaiCard extends LitElement {
         display: block;
       }
       section {
-        border: 1px solid var(--lluai-border-color);
+        border: 1px solid var(--lluai-border-color, #0B4C90);
         padding: var(--lluai-l, 1.5rem);
         display: flex;
         gap: var(--lluai-m, 1rem);
