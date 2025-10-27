@@ -26,7 +26,7 @@ export class LluaiInput extends LitElement {
       }
 
       :host([disabled]) input {
-        color: var(--lluai-on-disabled-color, #999);
+        color: var(--lluai-on-disabled-color, #aaa);
         background-color: var(--lluai-disabled-color, #ddd);
       }
     `
