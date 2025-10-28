@@ -70,3 +70,43 @@ lluai-card.card-expand {
 .myicon {
   color: var(--lluai-accent_2);
 }
+
+.nav {
+  --lluai-icon-size: 32px;
+  --lluai-icon-color: var(--lluai-accent_2);
+  --lluai-icon-rounded-padding: 0.5rem;
+}
+.nav .accent1 {
+  --lluai-icon-color: var(--lluai-accent_1);
+  --lluai-icon-size: 24px;
+}
+
+.supericon {
+  --lluai-icon-size: 90px;
+  --lluai-icon-stroke-width: 1px;
+}
+.nav .dark {
+  --lluai-icon-color: var(--lluai-accent_1);
+  --lluai-icon-rounded-background-color: #f84343ff;
+  --lluai-icon-rounded-padding: 1rem;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1rem;
+  background-color: #393;
+  --lluai-icon-color: #fff;
+}
+
+
+.roudedhover {
+  --lluai-icon-color: #fff;
+  --lluai-icon-rounded-background-color: #121bc1ff;
+}
+
+.roudedhover:hover {
+  --lluai-icon-rounded-background-color: #0e3645ff;
+  --lluai-icon-color: #e4f833ff;
+}

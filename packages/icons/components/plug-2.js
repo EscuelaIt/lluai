@@ -1,0 +1,9 @@
+import { LluaiIcon } from '../src/LluaiIcon.js';
+
+export class LluaiIconPlug2 extends LluaiIcon {
+  getSvgIcon() {
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M9 2v6" /> <path d="M15 2v6" /> <path d="M12 17v5" /> <path d="M5 8h14" /> <path d="M6 11V8h12v3a6 6 0 1 1-12 0Z" /></svg>`;
+  }
+}
+
+customElements.define('lluai-icon-plug-2', LluaiIconPlug2);

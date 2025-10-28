@@ -1,0 +1,9 @@
+import { LluaiIcon } from '../src/LluaiIcon.js';
+
+export class LluaiIconTally4 extends LluaiIcon {
+  getSvgIcon() {
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M4 4v16" /> <path d="M9 4v16" /> <path d="M14 4v16" /> <path d="M19 4v16" /></svg>`;
+  }
+}
+
+customElements.define('lluai-icon-tally-4', LluaiIconTally4);
