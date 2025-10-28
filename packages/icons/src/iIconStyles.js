@@ -2,7 +2,7 @@ export const iconStyles = new CSSStyleSheet();
 iconStyles.replaceSync(`
   :host {
     display: inline-block;
-    transition-duration: 0.3s;
+    transition-duration: var(--lluai-icon-transition-duration, 0.3s);
     transition-timing-function: ease-in-out;
     transition-property: background-color;
   }
@@ -22,7 +22,7 @@ iconStyles.replaceSync(`
     display: block;
     color:  var(--lluai-icon-color, #888);
     stroke-width: var(--lluai-icon-stroke-width, 2px); !important;
-    transition-duration: 1s;
+    transition-duration:  var(--lluai-icon-transition-duration, 0.3s);
     transition-timing-function: ease-in-out;
     transition-property: color;
     }
