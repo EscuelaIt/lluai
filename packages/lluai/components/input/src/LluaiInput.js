@@ -20,7 +20,7 @@ export class LluaiInput extends LitElement {
       input {
         padding: var(--lluai-s) var(--lluai-m);
         font-size: var(--lluai-input-font-size, var(--lluai-text-small, 0.875rem));
-        border: 1px solid var(--lluai-border-color);
+        border: 1px solid var(--lluai-border, #0B4C90);
         background-color: var(--lluai-input-background-color, #fff);
         border-radius: var(--lluai-b-radius-small, 0.25rem);
         line-height: var(--lluai-input-line-height, 1.325rem);
