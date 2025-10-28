@@ -22,7 +22,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "lit": "^3.3.1"
+    "lit": "^3.3.1",
+    "lluai-icons": "^0.0.1"
   },
   "publishConfig": {
     "access": "public"

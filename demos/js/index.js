@@ -22,4 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("inputvalue").reset();
   })
 
+  document.getElementById('buscador').addEventListener('lluai-input-search-click', function(){
+    alert('Es una búsqueda!!!')
+  })
 });

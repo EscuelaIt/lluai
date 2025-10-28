@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit';
+import 'lluai-icons/components/search.js';
 
 export class LluaiInput extends LitElement {
   static styles = [
@@ -29,6 +30,16 @@ export class LluaiInput extends LitElement {
         color: var(--lluai-on-disabled-color, #aaa);
         background-color: var(--lluai-disabled-color, #ddd);
       }
+
+      .input {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .input input {
+        flex-grow: 1;
+      }
     `
   ];
 
@@ -46,18 +57,31 @@ export class LluaiInput extends LitElement {
     return html`
       <section>
         <label>${this.label}</label>
-        <input 
-          placeholder="${this.placeholder}" 
-          type="${this.type}" 
-          value="${this.value}"
-          ?disabled=${this.disabled}
-        >
+        <div class="input">
+          <input 
+            placeholder="${this.placeholder}" 
+            type="${this.type}" 
+            value="${this.value}"
+            ?disabled=${this.disabled}
+          >
+          ${this.type == 'search'
+            ? html`<lluai-icon-search @click=${this.onSearchClick}></lluai-icon-search>`
+            : ''
+          }
+        </div> 
       </section>
     `;
   }
 
   reset() {
     this.shadowRoot.querySelector('input').value = '';
+  }
+
+  onSearchClick() {
+    this.dispatchEvent(new CustomEvent('lluai-input-search-click', { 
+      bubbles: true,
+      composed: true,
+    }));
   }
 }
 

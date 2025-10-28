@@ -110,3 +110,7 @@ lluai-card.card-expand {
   --lluai-icon-rounded-background-color: #0e3645ff;
   --lluai-icon-color: #e4f833ff;
 }
+
+.buscador {
+  --lluai-icon-color: var(--lluai-accent_1);
+}
