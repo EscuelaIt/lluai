@@ -18,7 +18,7 @@ export class LluaiInput extends LitElement {
         font-weight: var(--lluai-input-font-weight, bold);
       }
       input {
-        padding: var(--lluai-s) var(--lluai-m);
+        padding: var(--lluai-s, 0.5rem) var(--lluai-m, 1rem);
         font-size: var(--lluai-input-font-size, var(--lluai-text-small, 0.875rem));
         border: 1px solid var(--lluai-border, #0B4C90);
         background-color: var(--lluai-input-background-color, #fff);
