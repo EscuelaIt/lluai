@@ -1,6 +1,6 @@
 import { iconStyles } from "./iIconStyles.js";
 
-export class LluaiIcon extends HTMLElement {
+export class LluaiBaseIcon extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });

@@ -46,6 +46,7 @@ lluai-card img {
 
 lluai-card {
   margin-bottom: 1rem;
+  --lluai-icon-color: var(--lluai-accent_2);
 }
 
 .form {
@@ -76,7 +77,7 @@ lluai-card.card-expand {
   --lluai-icon-color: var(--lluai-accent_2);
   --lluai-icon-rounded-padding: 0.5rem;
 }
-.nav .accent1 {
+.nav .accent1, p .accent1 {
   --lluai-icon-color: var(--lluai-accent_1);
   --lluai-icon-size: 24px;
 }
@@ -84,6 +85,15 @@ lluai-card.card-expand {
 .supericon {
   --lluai-icon-size: 90px;
   --lluai-icon-stroke-width: 1px;
+}
+p .supericon {
+  --lluai-icon-size: 48px;
+  --lluai-icon-color: var(--lluai-accent_2);
+}
+
+p .supericon:hover {
+  --lluai-icon-rounded-background-color: #1bc79fff;
+  --lluai-icon-color: #fff;
 }
 .nav .dark {
   --lluai-icon-color: var(--lluai-accent_1);

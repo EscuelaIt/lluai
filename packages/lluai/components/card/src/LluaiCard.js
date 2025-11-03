@@ -27,13 +27,17 @@ export class LluaiCard extends LitElement {
   static get properties() {
     return {
       title: { type: String },
-      iconSrc: { type: String },
+      icon: { type: String },
     };
   }
 
   render() {
     return html`
       <section>
+        ${this.icon
+          ? html`<lluai-icon icon="${this.icon}"></lluai-icon>`
+          : ''
+        }
         <slot name="image"></slot>
         <h2>${this.title}</h2>  
         <div class="body">

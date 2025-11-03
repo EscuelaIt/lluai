@@ -27,3 +27,9 @@ iconStyles.replaceSync(`
     transition-property: color;
     }
 `);
+
+export const iconStylesNamedIcons = new CSSStyleSheet();
+iconStylesNamedIcons.replaceSync(`
+  :host { display: inline-block; }
+  .flex { display: flex;}
+`);

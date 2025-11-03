@@ -55,9 +55,9 @@ function processSvgContent(svgFilePath) {
  * Genera el código del componente
  */
 function generateComponentCode(className, customElementName, svgContent) {
-  return `import { LluaiIcon } from '../src/LluaiIcon.js';
+  return `import { LluaiBaseIcon } from '../src/LluaiBaseIcon.js';
 
-export class ${className} extends LluaiIcon {
+export class ${className} extends LluaiBaseIcon {
   getSvgIcon() {
     return \`${svgContent}\`;
   }

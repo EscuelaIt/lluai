@@ -1,6 +1,6 @@
-import { LluaiIcon } from '../src/LluaiIcon.js';
+import { LluaiBaseIcon } from '../src/LluaiBaseIcon.js';
 
-export class LluaiIconCircleEqual extends LluaiIcon {
+export class LluaiIconCircleEqual extends LluaiBaseIcon {
   getSvgIcon() {
     return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M7 10h10" /> <path d="M7 14h10" /> <circle cx="12" cy="12" r="10" /></svg>`;
   }

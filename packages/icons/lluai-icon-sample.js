@@ -1,4 +1,4 @@
-import { LluaiIcon } from "./src/LluaiIcon.js";
+import { LluaiBaseIcon } from "./src/LluaiBaseIcon.js";
 
 class LluaiIconSample extends LluaiIcon {
   getSvgIcon() {

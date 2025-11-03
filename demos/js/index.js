@@ -9,6 +9,9 @@ import 'lluai-icons/components/ambulance.js';
 import 'lluai-icons/components/house.js';
 import 'lluai-icons/components/youtube.js';
 import 'lluai-icons/components/vegan.js';
+import 'lluai-icons/components/school.js';
+import 'lluai-icons/components/library-big.js';
+import 'lluai-icons/lluai-icon.js';
 
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('botonsimple').addEventListener('click', function() {

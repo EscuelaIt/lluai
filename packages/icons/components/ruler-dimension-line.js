@@ -1,6 +1,6 @@
-import { LluaiIcon } from '../src/LluaiIcon.js';
+import { LluaiBaseIcon } from '../src/LluaiBaseIcon.js';
 
-export class LluaiIconRulerDimensionLine extends LluaiIcon {
+export class LluaiIconRulerDimensionLine extends LluaiBaseIcon {
   getSvgIcon() {
     return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 15v-3.014" /> <path d="M16 15v-3.014" /> <path d="M20 6H4" /> <path d="M20 8V4" /> <path d="M4 8V4" /> <path d="M8 15v-3.014" /> <rect x="3" y="12" width="18" height="7" rx="1" /></svg>`;
   }
