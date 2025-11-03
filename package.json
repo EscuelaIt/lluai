@@ -13,7 +13,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "workspaces": [
     "packages/*"
@@ -23,6 +25,7 @@
     "vite": "^7.1.11"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
     "lit": "^3.3.1"
   },
   "private": true
