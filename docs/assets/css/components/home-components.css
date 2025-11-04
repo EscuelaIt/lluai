@@ -1,0 +1,19 @@
+.card-components {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--lluai-m, 1rem);
+  align-items: stretch;
+}
+
+@media(min-width: 1000px) {
+  .card-components {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card-components a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: stretch;
+}

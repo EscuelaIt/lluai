@@ -5,14 +5,14 @@ export class LluaiCard extends LitElement {
     css`
       :host {
         display: block;
+        border: 1px solid var(--lluai-border-color, #0B4C90);
+        border-radius: var(--lluai-b-radius-normal, 0.5rem);
+        padding: var(--lluai-l, 1.5rem);
       }
       section {
-        border: 1px solid var(--lluai-border-color, #0B4C90);
-        padding: var(--lluai-l, 1.5rem);
         display: flex;
         gap: var(--lluai-m, 1rem);
         flex-direction: column;
-        border-radius: var(--lluai-b-radius-normal, 0.5rem);
       }
 
       h2 {

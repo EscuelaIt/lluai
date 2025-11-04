@@ -1,0 +1,23 @@
+---
+layout: layout.html
+name: components
+---
+
+
+<h1>Lluai UI Components</h1>
+
+<h2>The full library</h2>
+
+<p>
+  All the components... Ut malesuada volutpat mattis tortor. Aliquam dignissim nisl a arcu. Nunc mi urna sit habitant. Auctor quisque tellus eleifend ut suspendisse porttitor semper.
+</p>
+
+<div class="card-components">
+  {% for component in collections.components %}
+    <a href="{{component.url}}">
+      <lluai-card title="{{ component.data.title }}">
+        {{ component.data.description }}
+      </lluai-card>
+    </a>
+  {% endfor %}
+</div>
