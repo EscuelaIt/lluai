@@ -37,9 +37,6 @@ export class Menu extends LitElement {
   onMenuChanged(e) {
     console.log(e.detail);
     this.active = e.detail.name;
-    if(e.detail.href) {
-      window.location = e.detail.href;
-    }
   }
 
   

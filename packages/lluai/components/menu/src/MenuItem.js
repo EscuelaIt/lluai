@@ -8,7 +8,7 @@ export class MenuItem extends LitElement {
       :host {
         display: block;
       }
-      section {
+      a {
         font-size: var(--lluai-text-small, 0.875rem);
         display: flex;
         align-items: center;
@@ -19,7 +19,7 @@ export class MenuItem extends LitElement {
       :host([subitem]) {
         margin-left: var(--lluai-m, 1rem);
       }
-      :host([active]) section {
+      :host([active]) a {
         margin-left: -0.5rem;
         color: var(--lluai-accent_1, #CDF540);
         --lluai-icon-color: var(--lluai-accent_2, #FA4773);
@@ -44,18 +44,20 @@ export class MenuItem extends LitElement {
 
   render() {
     return html`
-    <section @click=${this.setActive}>
-      ${this.active
-        ? html`<lluai-icon icon="${this.icon}"></lluai-icon>`
-        : ''
-      }
-      ${this.label}
-    </section>
+      <a @click=${this.setActive} href="${this.href ? this.href : ''}">
+        ${this.active
+          ? html`<lluai-icon icon="${this.icon}"></lluai-icon>`
+          : ''
+        }
+        ${this.label}
+      </a>
     `;
   }
 
-  setActive() {
-    // this.active = ! this.active;
+  setActive(e) {
+    if(! this.href) {
+      e.preventDefault();
+    }
     this.dispatchEvent(new CustomEvent('lluai-menu-item-click', { 
       bubbles: true,
       composed: true,
