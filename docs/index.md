@@ -1,5 +1,6 @@
 ---
 layout: layout.html
+name: home
 ---
 
 # lluai UI Kit
