@@ -70,5 +70,12 @@ pre, pre code {
 
 .mainsection aside {
   border-right: 1px solid var(--lluai-border-color);
+}
 
+lluai-card {
+  --lluai-icon-color: var(--lluai-accent_2);
+}
+
+lluai-card img {
+  max-width: 100%;
 }
