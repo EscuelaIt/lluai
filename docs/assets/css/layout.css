@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: var(--lluai-foreground);
+  background-color: var(--lluai-bg_primary);
+  --lluai-icon-color: var(--lluai-accent_1);
+}
+
+.mainsection {
+  display: flex;
+}
+
+.mainsection aside {
+  border-right: 1px solid var(--lluai-border-color);
+
+}

@@ -1,0 +1,13 @@
+aside {
+  width: 280px;
+  padding: var(--lluai-m, --lluai-xs);
+}
+
+
+aside a.subitem {
+  
+}
+
+aside a.active {
+  color: var(--lluai-accent_1);
+}

@@ -5,6 +5,7 @@ export default function (eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy('docs/assets/js');
     eleventyConfig.addPassthroughCopy('docs/assets/css');
+    eleventyConfig.addPassthroughCopy('docs/assets/images');
 
     return {
         dir: {
