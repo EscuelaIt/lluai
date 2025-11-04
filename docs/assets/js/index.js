@@ -4,6 +4,7 @@ import 'lluai/components/button/button';
 import 'lluai/components/menu/menu-item';
 import 'lluai/components/menu/menu';
 
+import './prism.js'
 import './icons.js'
 
 console.log('Hola Eleventy');
