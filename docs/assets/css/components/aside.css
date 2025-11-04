@@ -1,13 +1,21 @@
 aside {
-  width: 280px;
+  width: 240px;
+  min-width: 240px;
+  max-width: 240px;
   padding: var(--lluai-m, --lluai-xs);
+  display: flex;
+  flex-direction: column;
 }
 
-
-aside a.subitem {
-  
+aside .aside_top {
+  flex-grow: 1;
 }
 
-aside a.active {
-  color: var(--lluai-accent_1);
+aside .aside_bottom {
+  font-size: var(--lluai-text-small);
+}
+
+aside .love {
+  color: var(--lluai-accent_2);
+  font-size: 1.4em;
 }

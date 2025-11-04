@@ -4,6 +4,10 @@ header {
   align-items: center;
   gap: var(--lluai-m);
   border-bottom: 1px solid var(--lluai-border-color);
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  background-color: var(--lluai-bg_primary);
 }
 
 header span {
