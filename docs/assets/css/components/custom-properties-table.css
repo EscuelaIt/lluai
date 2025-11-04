@@ -1,0 +1,47 @@
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+  
+  table thead {
+    background-color: var(--lluai-accent_1, #CDF540);
+    color: var(--lluai-on-accent_1, #001429);
+  }
+  
+  table th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid var(--lluai-accent_1, #CDF540);
+  }
+  
+  table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    color: #666;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  table tbody tr:hover {
+    background-color: var(--lluai-accent_1_light, #DCF879);
+  }
+  
+  table td:first-child {
+    font-family: monospace;
+    font-weight: bold;
+    color: var(--lluai-accent_2, #FA4773);
+  }
+  
+  table td:nth-child(2) {
+    font-family: monospace;
+    color: #666;
+  }

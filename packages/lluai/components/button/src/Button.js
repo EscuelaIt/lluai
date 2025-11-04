@@ -19,16 +19,17 @@ template.innerHTML = `
     button:hover {
       background-color: var(--lluai-accent_1_light, #DCF879);
     }
-    :host([disabled]) button {
-      background-color: var(--lluai-disabled-color, #999);
-      border-color: var(--lluai-disabled-color, #999);
-      color: var(--lluai-on-disabled-color, #666);
-    }
     :host([secondary]) button {
       background-color: var(--lluai-accent_2, #FA4773);
       border-color: var(--lluai-accent_2, #FA4773);
       color: var(--lluai-on-accent_2, #001429);
     }
+    :host([disabled]) button {
+      background-color: var(--lluai-disabled-color, #999);
+      border-color: var(--lluai-disabled-color, #999);
+      color: var(--lluai-on-disabled-color, #666);
+    }
+    
   </style>
   <button>
     <slot></slot>
