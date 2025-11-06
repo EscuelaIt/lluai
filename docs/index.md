@@ -1,3 +1,8 @@
+---
+layout: layout.html
+name: home
+---
+
 # lluai UI Kit
 
 **lluai** is a modern, lightweight, and customizable UI Kit designed to help you build beautiful and consistent user interfaces with minimal effort.  
