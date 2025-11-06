@@ -19,30 +19,20 @@ Install via npm:
 npm install lluai
 ```
 
-Aquí tienes un ejemplo de **README.md** en inglés, con todo el contenido esencial para un proyecto de UI Kit llamado **lluai**, distribuido por npm. Está estructurado de forma profesional y lista para usar o ampliar:
-
----
-
 ## 🧩 Usage
 
 Import the components you need into your project:
 
 ```javascript
-import 'lluai/button.js';
-import 'lluai/card.js';
+import 'lluai/components/button/button.js';
+import 'lluai/components/card/card.js';
 ```
 
 Then use them directly in your HTML:
 
 ```html
-<lluai-button variant="primary">Click Me</lluai-button>
+<lluai-button>Click Me</lluai-button>
 <lluai-card title="Welcome">This is a sample card</lluai-card>
-```
-
-You can also include the entire library (not recommended for performance):
-
-```javascript
-import 'lluai';
 ```
 
 ---
@@ -64,9 +54,10 @@ You can override them in your stylesheet or global theme:
 
 ```css
 :root {
-  --lluai-primary-color: #4b9ce2;
-  --lluai-border-radius: 12px;
-  --lluai-font-family: 'Inter', sans-serif;
+  --lluai-bg_primary: #4b9ce2;
+  --lluai-foreground: #fff;
+  --lluai-b-radius-small: 12px;
+  --lluai-text-small: 14px;
 }
 ```
 
@@ -79,61 +70,7 @@ Here are some of the available components:
 * `<lluai-button>` – Buttons with multiple variants and states
 * `<lluai-card>` – Simple and flexible card container
 * `<lluai-input>` – Styled input fields
-* `<lluai-modal>` – Accessible modal dialogs
-* `<lluai-alert>` – Notification and alert messages
+* `<lluai-menu>` – Create menu items
+* `<lluai-icon>` – Icon library based on Lucide icons
 
-For a full list of components and examples, see the [documentation](https://github.com/yourusername/lluai/wiki) *(or your docs site)*.
-
----
-
-## 🧑‍💻 Development
-
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/yourusername/lluai.git
-cd lluai
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Build for production:
-
-```bash
-npm run build
-```
-
----
-
-## 🧪 Testing
-
-Run the component tests:
-
-```bash
-npm test
-```
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 💬 Feedback & Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to open an issue or submit a pull request at:
-
-👉 [https://github.com/yourusername/lluai](https://github.com/yourusername/lluai)
-
----
-
-**lluai** — Build interfaces that shine ✨
-
+For a full list of components and examples, see the [documentation](https://lluai.escuelait.com) *(or your docs site)*.
