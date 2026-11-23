@@ -36,6 +36,7 @@ main {
   padding: 40px 1.5rem;
   flex-grow: 1;
   min-width: 0;
+  position: relative;
 }
 
 @media(min-width: 650px) {
