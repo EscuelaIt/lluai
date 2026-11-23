@@ -17,3 +17,26 @@
   display: flex;
   align-items: stretch;
 }
+
+.home-lluai-pattern{
+  width: clamp(100px, 15vw, 171px);
+  height: clamp(100px, 15vw, 171px);
+  position: absolute;
+  top: 0;
+  right: var(--lluai-xl);
+}
+
+.home-lluai-logo{
+  width: 191px;
+  height: 77px;
+}
+
+.action-buttons-section{
+  display: flex;
+  gap: var(--lluai-m);
+  margin: var(--lluai-xl) 0;
+}
+
+.action-buttons-section lluai-button{
+  text-wrap: nowrap;
+}
